@@ -1,0 +1,53 @@
+.nav{
+    /* background-color: navy; */
+    height: 50px;
+    display: flex;
+    margin-left: 20%;
+}
+.nav a{
+    font-size: 25px;
+   color: white;
+   text-decoration: none;
+   border: 2px solid black;
+   background-color: blue;
+   padding: 5px;
+   font-weight: bold;
+   margin: 0px 50px;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.input{
+    padding: 20px 35px;
+}
+.nav button{
+    padding: 0px 30px;
+}
+
+.cards-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+.image:hover{
+    box-shadow: seagreen 2px 2px 3px, seagreen -2px -2px 3px;
+
+}
+.card{
+    background-color: antiquewhite;
+    margin: 10px;
+    height: 450px;
+    width: 300px;
+    transition: 0.5s;
+    box-shadow: seagreen 3px 3px 5px, seagreen -3px -3px 5px;
+}
+.card:hover{
+    box-shadow: none;
+}
